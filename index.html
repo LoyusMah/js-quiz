@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="quiz-header">
+                <div class="title">
+                    <h1>General Knowledge Quiz</h1>
+                </div>
+                <div class="timer">
+                    <span id="timer">--</span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div class="module" id="start-module">
+                    <div class="quiz info">
+                        <p>
+                        <h2>Welcome to the Quiz! </h2> You have 100 seconds to complete 10 questions, each worth 1
+                        mark. To
+                        pass, you need at least 50%. Good luck!
+                        </p>
+                        <button onclick="startQuiz()">Start</button>
+                    </div>
+                </div>
+
+                <div class="module" id="score-module">
+                    <div class="quiz info">
+                        <p>
+                            Your Score is
+                        </p>
+                        <span id="score">___</span>
+                        <p>
+                            You Have <span id="result">__</span>
+                        </p>
+                        <button onclick="resetQuiz()">Restart</button>
+                    </div>
+                </div>
+
+                <div class="module" id="quiz-module">
+                    <ul class="quiz" id="quizlist">
+                        <li class="quiz-question">
+                            <span>Question 1: </span>
+                            <ul class="quiz-answer">
+                                <li>
+                                    <input type="radio" id="answer1" name="question1" /> <label for="answer1">Answer
+                                        1</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="answer2" name="question1" /> <label for="answer2">Answer
+                                        1</label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div id="submit-module">
+                        <div class="quiz footer">
+                            <button onclick="stopQuiz()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <audio id="timerAudio">
+        <source src="assest/click.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="cheerAudio">
+        <source src="assest/cheer.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="booAudio">
+        <source src="assest/chin_tapak_dum_dum.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+
+<script src="script.js">
+</script>
+
+</html>

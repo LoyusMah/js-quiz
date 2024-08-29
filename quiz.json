@@ -1,0 +1,68 @@
+{
+ "quiz": [
+ {
+        "question": "What sport is considered the most popular in the world?",
+        "options": ["Football", "Tennis", "Golf", "Basketball"],
+        "answer": "Fooballt"
+    },
+    {
+        "question": "Which team won the last World Hockey Championship?",
+        "options": ["Russia", "Canada", "United states", "Finland"],
+        "answer": "Canada"
+    },
+    {
+        "question": "What year is officially recognized as the beginning of the modern Olympic Games?",
+        "options": [
+            "1880",
+            "1600",
+            "1906",
+            "1896"
+        ],
+        "answer": "1896"
+    },
+    {
+        "question": "What material is used for weights in most bicycle races?",
+        "options": [
+            "Lead",
+            "Glass",
+            "Aluminum",
+            "Concrete"
+        ],
+        "answer": "Lead"
+    },
+    {
+        "question": " What distance do marathon participants run?",
+        "options": ["10K.M", "21K.M", "100K.M", "42.5K.M"],
+        "answer": "42.5K.M"
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": ["1905", "1912", "1920", "1935"],
+        "answer": "1912"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["China", "Japan", "South Korea", "India"],
+        "answer": "Japan"
+    },
+    {
+        "question": "What is the smallest unit of life?",
+        "options": ["Atom", "Molecule", "Cell", "Organism"],
+        "answer": "Cell"
+    },
+    {
+        "question": "Who was the first person to walk on the moon?",
+        "options": [
+            "Neil Armstrong",
+            "Buzz Aldrin",
+            "Yuri Gagarin",
+            "John Glenn"
+        ],
+        "answer": "Neil Armstrong"
+    },
+    {
+        "question": "Which language is the most widely spoken in the world?",
+        "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+        "answer": "Mandarin Chinese"
+    }
+]}
